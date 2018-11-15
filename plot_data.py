@@ -17,13 +17,7 @@ def normalization(k,n,thefile):
     return mm
     print(k,l,mm)
     plt.plot(x,mm[:,1:]) 
-    plt.show()
-        #plt.hold(True) 
-    
-    #plt.xlim(380,700)
-    #plt.xlabel("Wavelength")
-    #plt.ylabel("Intensity")
-    
+    plt.show()    
 file = pd.read_excel("w_wout_lens_0.57A_980.xlsx")
 file = file.as_matrix()
 print(file)
