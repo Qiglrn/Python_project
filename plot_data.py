@@ -16,8 +16,8 @@ def normalization(k,n,thefile):
         mm[:,i] = Nrml_y
     return mm
     print(k,l,mm)
-    #plt.plot(x,mm[:,1:]) 
-    #plt.show()
+    plt.plot(x,mm[:,1:]) 
+    plt.show()
         #plt.hold(True) 
     
     #plt.xlim(380,700)
